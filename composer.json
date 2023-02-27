@@ -1,0 +1,28 @@
+{
+    "name": "mehmetnky/logger",
+    "type": "library",
+    "description": "A light-weight logger library",
+    "keywords": ["logger"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mehmetnky\\Logger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mehmetnky\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehmet Can Nokay",
+            "email": "mehmetnky@gmail.com"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "^1.8",
+        "psr/log": "^3.0",
+        "php": ">=8.1"
+    }
+}
